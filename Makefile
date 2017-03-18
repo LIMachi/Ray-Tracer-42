@@ -43,6 +43,7 @@ CLIB = libft libftx2 libftocl libftjson
 LCLIB = minilibx_X11
 MCLIB = minilibx_macos
 LLIB = libftx2/libftx2.a libftocl/libftocl.a libftjson/libftjson.a libft/libft.a minilibx_X11/libmlx.a
+MLIB = libftx2/libftx2.a libftocl/libftocl.a libftjson/libftjson.a libft/libft.a minilibx_macos/libmlx.a
 LLARGS = -lOpenCL -ICL -lXext -lX11
 MLARGS = -framework OpenCL -framework OpenGL -framework AppKit
 
